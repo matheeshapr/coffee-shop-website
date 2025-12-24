@@ -1,4 +1,3 @@
-/* මූලික සැකසුම් */
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +6,10 @@
 }
 
 body {
-    background-color: #f8f5f2; /* ක්‍රීම් පාට පසුබිම */
-    color: #4b3621; /* තද දුඹුරු අකුරු */
+    background-color: #f8f5f2;
+    color: #4b3621; 
 }
 
-/* 1. Header & Nav */
 header {
     display: flex;
     justify-content: space-between;
@@ -25,7 +23,7 @@ header {
 }
 
 .logo {
-    font-family: 'Dancing Script', cursive; /* විශේෂ ෆොන්ට් එකක් */
+    font-family: 'Dancing Script', cursive;
     font-size: 30px;
 }
 
@@ -38,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #d2b48c; /* රත්තරන් පාට */
+    color: #d2b48c;
 }
 
 .btn-contact {
@@ -48,14 +46,12 @@ nav a:hover {
     color: #4b3621;
 }
 
-/* 2. Hero Section */
 .hero {
     height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* පසුබිම් පින්තූරය (අන්තර්ජාලයෙන්) */
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
     background-size: cover;
     background-position: center;
@@ -84,7 +80,6 @@ nav a:hover {
     background-color: white;
 }
 
-/* 3. Menu Section */
 .menu {
     padding: 50px;
     text-align: center;
@@ -114,7 +109,7 @@ nav a:hover {
 }
 
 .card:hover {
-    transform: scale(1.05); /* පොඩ්ඩක් ලොකු වෙන්න */
+    transform: scale(1.05);
 }
 
 .card h3 {
@@ -142,7 +137,6 @@ nav a:hover {
     background-color: #c99c5e;
 }
 
-/* 4. Footer */
 footer {
     background-color: #4b3621;
     color: white;
@@ -151,11 +145,10 @@ footer {
     margin-top: 20px;
 }
 
-/* --- Cart Page Styles --- */
 .cart-container {
     padding: 50px;
     max-width: 800px;
-    margin: 0 auto; /* මැදට ගන්න */
+    margin: 0 auto; 
     text-align: center;
 }
 

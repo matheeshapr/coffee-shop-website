@@ -150,3 +150,47 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+
+/* --- Cart Page Styles --- */
+.cart-container {
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto; /* මැදට ගන්න */
+    text-align: center;
+}
+
+.cart-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+.cart-table th, .cart-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.cart-table th {
+    background-color: #4b3621;
+    color: white;
+}
+
+.cart-total {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.btn-remove {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-remove:hover {
+    background-color: #c0392b;
+}
